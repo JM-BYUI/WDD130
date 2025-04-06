@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Public Domain Library</title>
+		<meta name="description" content="Library website built for WDD 131" />
+		<link rel="stylesheet" href="library.css" />
+        <meta property="og:title" content="Page Title">
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Page Description">
+        <meta property="og:image" content="URL to an image">
+        <meta property="og:url" content="URL of the page">
+        <meta name="twitter:card" content="summary_large_image">
+		<script src="main.js" type="module"></script>
+	</head>
+    <body>
+        <!-- Title -->
+        <header>
+            <h1>
+                Public Domain Library
+            </h1>
+            <hr>
+        </header>
+        <main>
+            <form class ="search" role ="search">
+                <input
+                    type="search"
+                    name="q"
+                    id="site-search"
+                    aria-label="Search through site content"
+                    placeholder="Find a book"
+                /><button type="submit" id="searchButton">
+                    <img src="search.svg" alt="search icon" />
+                </button>
+            </form>
+            <hr>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+            <script src="script.js" defer></script>
+        </head>
+        <body>
+            <div class="book-layout">
+                <div class="book-details">
+                    <div class="top-row">
+                        <h2 class="book-title">Frankenstein</h2>                    </div>
+                    <div class="book-info">
+                        <p><strong>Author:</strong> Mary Shelley</p>
+                        <p><strong>Release Date:</strong> 1818</p>
+                    </div>
+                    <div class="description">
+                        <p>One of the foundational works of the gothic horror genre, Mary Shelley's Frankenstein tells the tale of how Victor Frankenstein's drive to defy the laws of nature and his subsequent disregard for his own creation ultimately leads to tragedy.</p>
+                    </div>
+                    <a href="https://www.gutenberg.org/cache/epub/84/pg84-images.html">Read here!</a>
+                    <hr>
+                    <div class="rating-box">
+                        <header>How did you enjoy this book?</header>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

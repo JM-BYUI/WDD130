@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Public Domain Library</title>
+		<meta name="description" content="Library website built for WDD 131" />
+		<link rel="stylesheet" href="library.css" />
+        <meta property="og:title" content="Page Title">
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Page Description">
+        <meta property="og:image" content="URL to an image">
+        <meta property="og:url" content="URL of the page">
+        <meta name="twitter:card" content="summary_large_image">
+		<script src="script.js" type="module"></script>
+	</head>
+    <body>
+        <!-- Title -->
+        <header>
+            <h1>
+                Public Domain Library
+            </h1>
+            <hr>
+        </header>
+    </body>
+    <main>
+        <form class ="search" role ="search">
+            <input
+                type="search"
+                name="q"
+                id="site-search"
+                aria-label="Search through site content"
+                placeholder="Find a book"
+            /><button type="submit" id="searchButton">
+                <img src="search.svg" alt="search icon" />
+            </button>
+        </form>
+        <hr>
+        <h2>
+            Welcome
+        </h2>
+        <p>
+            Welcome to Public Domain Library! This is a website designed to provide students, teachers, or anyone looking for classic literature with a free, easy to use online source of public domain books. Currently this is just a prototype of the site, so we only have two books available- Frankenstein and Hamlet. You can select these books from the list below, or by typing their names into the search bar.
+        </p>
+        <hr>
+        <h2>
+            Book List
+        </h2>
+        <section class="book-list">
+            <figure class="Frankenstein">
+                <figcaption>
+                    <h2><img src="frankicon.png" alt="frank-icon" /><a href="frank.html">Frankenstein</a></h2>
+                </figcaption>
+            </figure>
+            <figure class="Hamlet">
+                <h2><img src="hamletskull.png" alt="hamlet-icon" /><a href="hamlet.html">Hamlet</a></h2>
+            </figure>
+            
+        </section>
+    </main>
